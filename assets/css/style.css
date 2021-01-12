@@ -1,0 +1,171 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+
+/* font-family: 'Nunito Sans', sans-serif; */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* COMMON CSS */
+.btn {
+  padding: 6px 10px;
+  border: 1px solid #5cc5e3;
+}
+
+/* ./common CSS */
+
+/* ======header CSS====== */
+.navbar {
+  background: #ffff;
+}
+
+.navbar-brand {}
+
+.navbar-brand img {}
+
+.logo {
+  height: 50px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.menu ul li a {
+  margin-right: 50px;
+  font-weight: 600;
+  color: #333 !important;
+}
+
+.menu ul li:last-child a {
+  margin-right: 0 !important;
+}
+
+.menu ul li a:hover {
+  color: #5cc5e3 !important;
+}
+
+
+.nav-btn a {
+  text-decoration: none;
+}
+
+
+.nav-btn .btn:hover {
+  background-color: #5cc5e3;
+  color: #fff;
+}
+
+/* ./Header */
+
+
+/* LOGIN SECTION CSS START */
+.login-section {
+  margin: 50px !important;
+  border: none;
+
+}
+
+.login-left {
+
+  margin: 30px 0;
+}
+
+.login-left img {
+  width: 100%;
+  /* border-radius: 10px;
+  box-shadow: 8px 8px 6px -6px; */
+
+}
+
+.login-right {
+  background-color: #fff;
+  padding: 0px 20px;
+}
+
+.login-right .btn:hover {
+  background-color: #5cc5e3;
+  color: #fff;
+}
+
+.forgot-pass a {
+  color: #5cc5e3;
+}
+
+/* ./LOGIN SECTION CSS */
+
+/* Registration CSS */
+.reg-section .btn:hover {
+  background-color: #5cc5e3;
+  color: #fff;
+
+}
+
+/* ./Registration CSS */
+
+/* dashboard Home vertical menu home */
+.vertical-menu .flex-column {
+  background-color: #fff;
+}
+
+/* ./dashboard Home vertical menu home */
+
+
+
+
+/* FOOTER CSS */
+
+/* .copyright {
+  background: #5c7484;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 100%;
+
+
+} */
+
+
+/* ./FOOTER CSS */
+
+.dk-footer {
+  padding: 75px 0 0;
+  position: relative;
+   }
+
+
+.copyright {
+  padding: 28px 0;
+  margin-top: 55px;
+  background: #5c7484;
+color: #fff;
+ }
+
+  /* .copyright span,
+  .copyright a {
+    color: #878787;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear; }
+  .copyright a:hover {
+    color:#007bff; }
+
+.copyright-menu ul {
+  text-align: right;
+  margin: 0; }
+
+.copyright-menu li {
+  display: inline-block;
+  padding-left: 20px; } */
+
