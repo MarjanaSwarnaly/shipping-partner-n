@@ -30,7 +30,7 @@ body {
 .navbar-brand img {}
 
 .logo {
-  height: 50px;
+  height: 60px;
 }
 
 .navbar-brand {
@@ -62,8 +62,43 @@ body {
   color: #fff;
 }
 
+.nav-btn-login button {
+  background-color: #fff;
+  border: 1px solid #5cc5e3;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.nav-btn-login button:hover {
+  background-color: #5cc5e3;
+  color: #fff;
+}
+
+header .navbar-expand {
+  padding: none;
+}
+
+.navbar-expand .navbar-nav .nav-item a:not(.btn) {
+  font-weight: 600;
+  color: #333;
+}
+
+.navbar-expand .navbar-nav .nav-item a:not(.btn):hover {
+  color: #5cc5e3 !important;
+
+}
+
 /* ./Header */
 
+/* Faq CSS */
+.card-header .btn {
+  border: none !important;
+}
+
+.accordion>.card>.card-header {
+  border-radius: 6px;
+  background-color: #fff;
+}
 
 /* LOGIN SECTION CSS START */
 .login-section {
@@ -120,21 +155,10 @@ body {
 
 
 /* FOOTER CSS */
+.home-footer .copyright {
+  margin-top: 0;
 
-/* .copyright {
-  background: #5c7484;
-  color: #fff;
-  padding: 20px 0;
-  margin-top: 10px;
-  color: white;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  left:0;
-  width: 100%;
-
-
-} */
+}
 
 
 /* ./FOOTER CSS */
@@ -142,30 +166,12 @@ body {
 .dk-footer {
   padding: 75px 0 0;
   position: relative;
-   }
+}
 
 
 .copyright {
   padding: 28px 0;
   margin-top: 55px;
   background: #5c7484;
-color: #fff;
- }
-
-  /* .copyright span,
-  .copyright a {
-    color: #878787;
-    -webkit-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear; }
-  .copyright a:hover {
-    color:#007bff; }
-
-.copyright-menu ul {
-  text-align: right;
-  margin: 0; }
-
-.copyright-menu li {
-  display: inline-block;
-  padding-left: 20px; } */
-
+  color: #fff;
+}
